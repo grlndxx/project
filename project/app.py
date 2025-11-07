@@ -6,8 +6,6 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 from pydantic import BaseModel
 import uvicorn
 
-
-
 app = FastAPI()
 
 class BackgroundGradient(BaseModel):
